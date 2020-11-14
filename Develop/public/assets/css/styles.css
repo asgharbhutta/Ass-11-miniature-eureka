@@ -29,7 +29,7 @@ html, body {
 }
 
 .note-title {
-  height: 50px;
+  height: 70px;
   margin-top: 13px;
   font-size: 3rem;
 }
@@ -58,13 +58,24 @@ html, body {
 }
 
 .list-container i {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
 .list-container .list-group-item {
   border-left: none;
   border-right: none;
-  padding: 20px;
+  padding: 50px;
   cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.list-container .list-group-item:hover {
+  border-left: none;
+  border-right: none;
+  padding: 50px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color:#18BC9C;
+  transition: ease-in 0.2s;
 }
